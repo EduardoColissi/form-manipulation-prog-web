@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <script src="../scripts/main.js"></script>
+    <header>
+      <nav id="header">
+        <a href="../index.html">Inicial</a>
+        <a href="./Clientes.html">Clientes</a>
+        <a href="./Produtos.html">Produtos</a>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <h3>Para usar o login, utilize os dados de administrador</h3>
+        <p>Usuário: teste</p>
+        <p>Senha: teste</p>
+      </div>
+
+      <div>
+        <form>
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required /><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required /><br>
+            <hr/>
+          <button type="submit" onclick="Login()">Entrar</button>
+        </form>
+      </div>
+    </main>
+</body>
+</html>
