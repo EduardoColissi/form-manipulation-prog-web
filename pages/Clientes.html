@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+</head>
+<script src="../scripts/main.js"> </script> 
+<body>
+    <form name="form">
+        <label for="cpf">CPF</label>
+        <input type="cpf" id="cpfid" placeholder="CPF (11 dígitos)" required="required" name="cpf" />
+        <br>
+        <label for="nome">Nome</label>
+        <input type="text" id="nomeid" placeholder="Nome Completo" required="required" name="nome" />
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="emailid" placeholder="exemplo@gmail.com.br" required="required" name="email" maxlength="60" size='65' />
+       <br>
+        <label for="endereco">Endereço</label>
+        <input type="text" id="enderecoid" placeholder="Endereço" required="required" name="endereco" />
+       <br>
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidadeid" placeholder="Cidade" required="required" name="cidade" />
+       <br>
+        <label for="pais">País</label>
+        <input type="text" id="paisid" placeholder="País" required="required" name="pais" />
+       <br>
+        <label for="fone">Fone</label>
+        <input type="tel" id="foneid" placeholder="(xx)xxxx-xxxx" required="required" name="fone" />
+       <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+       </form>
+       
+</body>
+</html>
