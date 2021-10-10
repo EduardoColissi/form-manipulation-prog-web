@@ -1,0 +1,22 @@
+
+main {
+    width: 70%;
+    margin: 96px auto;
+    gap: 256px;
+    display: flex;
+    justify-content: center;
+  }
+
+  header {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightslategray;
+    border-bottom: 1px solid var(--black);
+  }
+  
+  header nav {
+    gap: 48px;
+    display: flex;
+    justify-content: center;
+  }
